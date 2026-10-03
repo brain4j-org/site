@@ -3,11 +3,18 @@
         --brain-accent: #10b981;
     }
 
-    body {
-        font-family: 'Manrope', sans-serif;
-        background: linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #334155 100%);
-        min-height: 100vh;
-    }
+     html {
+         background-color: #334155; 
+         overscroll-behavior-y: none;
+     }
+     
+     body {
+         font-family: 'Manrope', sans-serif;
+         background: linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #334155 100%);
+         background-attachment: fixed; 
+         min-height: 100vh;
+         margin: 0;
+     }
 
     #particles-js {
         position: fixed;
